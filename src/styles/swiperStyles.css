@@ -1,0 +1,14 @@
+.swiperSlide {
+  height: 400px;
+  padding: 1rem;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.citate {
+  padding: 1rem;
+}
+.image {
+  padding: 1rem;
+}
