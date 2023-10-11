@@ -12,11 +12,11 @@ const seo = {
 
 <style>
   .hero__article {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: 50vh;
     text-align: center;
   }
 </style>
@@ -24,9 +24,15 @@ const seo = {
 <Layout seo={seo}>
   <Container narrow>
     <article class="hero__article">
-      <h1 class="fade-in">Acamunity</h1>
-      <h2 class="fade-in">Coming Soon</h2>
-      <p class="fade-in">Be the first to know when our new site is live!</p>
+      <h1 class="fade-in" style="margin-bottom: 2rem;">
+        Join the conversation that matters.
+      </h1>
+      <h2 class="fade-in" style="margin-bottom: 2rem;">
+        Stay informed with our newsletter,
+      </h2>
+      <p class="fade-in" style="margin-bottom: 1rem;">
+        connecting academia's brightest minds.
+      </p>
       <SignupForm />
     </article>
     <InsightsSwiper client:load />

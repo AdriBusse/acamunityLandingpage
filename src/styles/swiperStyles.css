@@ -1,10 +1,11 @@
 .swiperSlide {
-  height: 400px;
+  height: 250px;
   padding: 1rem;
 }
 .content {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .citate {
   padding: 1rem;

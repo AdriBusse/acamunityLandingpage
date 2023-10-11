@@ -32,8 +32,8 @@
 
   /* Container */
   --container-padding: 0 1rem;
-  --container-max-width: 1440px;
-  --container-max-width-narrow: 960px;
+  --container-max-width: 1920px;
+  --container-max-width-narrow: 1440px;
 }
 
 html {
@@ -41,6 +41,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   color: var(--theme-on-background);
   font-size: var(--step-0);
@@ -49,8 +51,6 @@ body {
   line-height: 1.5;
   max-width: var(--body-max-width);
   position: relative;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
   background: var(--theme-background) url("/assets/images/bg.svg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,7 +67,7 @@ a {
 /* Typography */
 
 h1 {
-  font-size: var(--step-5);
+  font-size: var(--step-3);
   font-family: var(--font-family-heading);
   font-weight: 600;
   line-height: 1.2;
@@ -76,14 +76,14 @@ h1 {
 }
 
 h2 {
-  font-size: var(--step-4);
+  font-size: var(--step-2);
   font-family: var(--font-family-heading);
   font-weight: 500;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: var(--step-2);
+  font-size: var(--step-1);
   font-family: var(--font-family-heading);
   font-weight: 500;
   line-height: 1.2;
