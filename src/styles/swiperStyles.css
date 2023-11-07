@@ -12,4 +12,9 @@
 }
 .image {
   padding: 1rem;
+  max-width: 200px;
+  max-height: 200px;
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
 }

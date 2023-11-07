@@ -1,5 +1,5 @@
 ---
-import Logo from "./Logo.astro";
+import Logo from "./Logos/Logo.astro";
 ---
 
 <style>
@@ -9,8 +9,16 @@ import Logo from "./Logo.astro";
     align-items: center;
     justify-content: center;
   }
+  .logo {
+    width: 75%;
+    @media screen and (max-width: 400px) {
+      width: 90%;
+    }
+  }
 </style>
 
 <header>
-  <Logo />
+  <div class="logo fade-in">
+    <Logo />
+  </div>
 </header>

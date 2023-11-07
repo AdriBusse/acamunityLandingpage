@@ -45,7 +45,9 @@ function InsightsSwiper() {
             <div className="citate">
               <h3>{item.citate}</h3>
             </div>
-            <div className="image">image</div>
+            <div className="image">
+              <img src="/assets/images/acamunity-02.png" />
+            </div>
           </div>
         </SwiperSlide>
       ))}
